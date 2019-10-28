@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            app:cardElevation="10dp"
+            android:src="@drawable/images"
+            android:background="@drawable/circle"
+            card_view:cardCornerRadius="40dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:id="@+id/profileimage"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/shata"
+                android:background="@drawable/circle" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardElevation="10dp"
+            android:src="@drawable/images"
+            android:background="@drawable/circle"
+            card_view:cardCornerRadius="40dp"
+            android:layout_marginBottom="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txtname"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Name : Magdy Shata"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/txtid"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="ID :  12345678901234"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    />
+                <TextView
+                    android:id="@+id/txtscores"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Score :  50 "
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtust"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:text="USER STATES"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="normal|bold|italic" />
+
+
+        <TextView
+            android:id="@+id/lasttimescore"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Last Score : 70"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:id="@+id/alltimescore"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="# of right Questions : 50"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:id="@+id/gamesnumber"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="# of Playing Sesions : 10"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:id="@+id/txtperc"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Winning Percentage : 100%"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/clickme"
+            android:text="ChallengeReq" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

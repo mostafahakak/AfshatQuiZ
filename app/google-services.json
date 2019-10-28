@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "315718395626",
+    "firebase_url": "https://afshatquiz.firebaseio.com",
+    "project_id": "afshatquiz",
+    "storage_bucket": "afshatquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315718395626:android:2a02edfb17d4c941",
+        "android_client_info": {
+          "package_name": "com.theapp.afshatquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315718395626-2hr3buimin3uvg8ngoc8o8m0pgmv2h2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theapp.afshatquiz",
+            "certificate_hash": "53e54a6043c56858ed21ae644d34c9ec7a98f833"
+          }
+        },
+        {
+          "client_id": "315718395626-fir049hc4dod1n2k31fb349ecmll7i4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB06KRORAx2lmvdgVU9hbUpkCXEW9A05UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315718395626-fir049hc4dod1n2k31fb349ecmll7i4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

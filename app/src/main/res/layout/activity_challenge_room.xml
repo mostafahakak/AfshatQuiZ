@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent"
+    tools:context=".ChallengeRoom">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-1316548528485611/7976464347"></com.google.android.gms.ads.AdView>
+        <LinearLayout
+
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:gravity="fill">
+
+            <TextView
+                android:id="@+id/playerone"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Mostafa"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/playertwo"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="90dp"
+                android:gravity="center"
+                android:text="Mostafa"
+                android:textColor="@android:color/white" />
+    </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:gravity="fill">
+
+            <TextView
+                android:id="@+id/myscore"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Score :"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/hisscore"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="90dp"
+                android:gravity="center"
+                android:text="Score : "
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:id="@+id/question_text"
+            android:layout_centerHorizontal="true"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:text="shasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
+            android:gravity="center"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:paddingTop="1dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/group"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:max="20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnAnswera"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#364ca7"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Answer A"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:theme="@style/MyButton" />
+
+            <Button
+                android:id="@+id/btnAnswerb"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#364ca7"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Answer B"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:theme="@style/MyButton" />
+
+            <Button
+                android:id="@+id/btnAnswerc"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#364ca7"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Answer C"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:theme="@style/MyButton" />
+
+            <Button
+                android:id="@+id/btnAnswerd"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#364ca7"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Answer D"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:theme="@style/MyButton" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

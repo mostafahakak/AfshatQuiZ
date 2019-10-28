@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Afshat Trivia</string>
+
+    <string name="facebook_app_id">363140341057516</string>
+    <string name="fb_login_protocol_scheme">fb363140341057516</string>
+    <string name="play">Play</string>
+
+    <string name="cat">Category</string>
+    <string name="profile">Profile</string>
+    <string name="rank">Ranking</string>
+
+    <string name="lastscore">Last Score :</string>
+    <string name="bestscore">Best Score :</string>
+    <string name="rightques"># of right questions :</string>
+    <string name="gamesplayed"># of games played :</string>
+    <string name="name">Name :</string>
+    <string name="id">ID :</string>
+    <string name="userstat">User States</string>
+    <string name="winperc">Winning % :</string>
+
+
+    <string name="Image">Image</string>
+    <string name="Score">Score</string>
+    <string name="Name">Name</string>
+
+
+</resources>

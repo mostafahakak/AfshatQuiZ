@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@android:color/black"
+    android:background="@android:color/black"
+    tools:context=".Start">
+
+
+    <android.support.v7.widget.CardView
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="25dp"
+    app:cardElevation="10dp"
+    android:src="@android:color/black"
+    android:background="@android:color/black"
+    card_view:cardCornerRadius="140dp">
+
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/logo"
+        android:background="@android:color/black"
+        android:src="@drawable/play"
+        />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/images"
+        android:background="@drawable/circle"
+        android:layout_margin="16dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="50dp"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnplay"
+            android:background="#364ca7"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/play"
+            android:textColor="@android:color/white"
+            android:textStyle="italic"
+            android:theme="@style/MyButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_gravity="bottom"
+            />
+        
+    </android.support.v7.widget.CardView>
+    
+    
+</RelativeLayout>

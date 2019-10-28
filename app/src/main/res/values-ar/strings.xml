@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">امتحان افشات</string>
+
+    <string name="facebook_app_id">363140341057516</string>
+    <string name="fb_login_protocol_scheme">fb363140341057516</string>
+    <string name="play">العب يالاااا</string>
+
+    <string name="cat">القأمة</string>
+    <string name="profile">الحساب</string>
+    <string name="rank">الترتيب</string>
+
+    <string name="lastscore">أخر محولة :</string>
+    <string name="bestscore">السكور :</string>
+    <string name="rightques">عدد الاسألة الصحيحة :</string>
+    <string name="gamesplayed">عدد مراة اللعب :</string>
+    <string name="name">الاسم :</string>
+    <string name="id">الرقم :</string>
+    <string name="userstat">الملف الشاخصي :</string>
+    <string name="winperc">نسبة الفوز :</string>
+
+
+    <string name="Image">الصورة</string>
+    <string name="Score">السكور</string>
+    <string name="Name">الاسم</string>
+
+
+</resources>
