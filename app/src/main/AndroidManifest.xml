@@ -86,7 +86,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ChallengeReq" />
-        <activity android:name=".ChallengeRoom"></activity>
+        <activity android:name=".ChallengeRoom" />
+        <activity android:name=".ActiveChallenges"></activity>
     </application>
 
 </manifest>

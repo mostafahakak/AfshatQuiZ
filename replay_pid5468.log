@@ -1,0 +1,53 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 137 ciObject found
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/util/Arrays hashCode ([Ljava/lang/Object;)I 2385 1937 12264 0 288
+ciMethodData java/util/Arrays hashCode ([Ljava/lang/Object;)I 2 23216 orig 264 56 173 70 116 0 0 0 0 232 47 255 20 0 0 0 0 8 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42 1 0 0 241 117 1 0 241 205 2 0 30 24 0 0 214 23 0 0 2 0 0 0 1 0 11 0 2 0 0 0 192 0 0 0 255 255 255 255 7 224 1 0 0 0 0 0 data 24 0x1e007 0x2a50 0x20 0x475 0x130007 0x2a4f 0xa0 0x59bf 0x220007 0x57cf 0x38 0x1f1 0x260003 0x1f1 0x48 0x2b0005 0x4487 0x1585f5e0 0xd99 0x1585f550 0x5b2 0x330003 0x59be 0xffffffffffffff78 oops 2 17 java/lang/Class 19 java/lang/String
+ciMethod com/android/tools/r8/graph/DexString computeHashCode ()I 2169 1 251661 0 -1
+ciMethod com/android/tools/r8/graph/CachedHashValueDexItem computeHashCode ()I 0 0 1 0 -1
+ciMethod com/android/tools/r8/graph/CachedHashValueDexItem hashCode ()I 2225 1 1887193 0 96
+ciMethod com/android/tools/r8/graph/DexDebugEvent hashCode ()I 0 0 1 0 -1
+ciMethodData com/android/tools/r8/graph/CachedHashValueDexItem hashCode ()I 2 1887193 orig 264 56 173 70 116 0 0 0 0 152 190 225 34 0 0 0 0 184 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 1 0 0 25 86 230 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 112 0 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 14 0x70007 0x1a6e97 0x70 0x267e2 0xb0005 0x720 0x24179610 0x991 0x241796c0 0x319 0x110007 0x2673e 0x20 0x0 oops 2 6 com/android/tools/r8/graph/DexString 8 com/android/tools/r8/graph/DexProto
+ciMethod com/android/tools/r8/graph/DexCode computeHashCode ()I 4097 1 73524 0 -1
+ciMethod com/android/tools/r8/code/Instruction hashCode ()I 0 0 1 0 -1
+ciMethod com/android/tools/r8/graph/DexCode$Try hashCode ()I 84961 1 10620 0 0
+ciMethod com/android/tools/r8/graph/DexDebugInfo computeHashCode ()I 4097 1 67207 0 0
+ciMethodData com/android/tools/r8/graph/DexDebugInfo computeHashCode ()I 2 67207 orig 264 56 173 70 116 0 0 0 0 96 1 188 35 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 57 36 8 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 4 0x80002 0x10487 0x130002 0x10487 oops 0
+ciMethodData com/android/tools/r8/graph/DexCode computeHashCode ()I 2 73524 orig 264 56 173 70 116 0 0 0 0 152 98 134 35 0 0 0 0 224 1 0 0 72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 161 233 8 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 152 0 0 0 255 255 255 255 2 0 24 0 0 0 0 0 data 19 0x180002 0x11d37 0x230007 0xe22b 0x38 0x3af4 0x270003 0x3af7 0x48 0x2e0005 0x9b 0x24130e90 0xe190 0x0 0x0 0x390002 0x11d1f 0x440002 0x11d20 oops 1 11 com/android/tools/r8/graph/DexDebugInfo
+ciMethod com/android/tools/r8/graph/DexCode$TryHandler hashCode ()I 74889 1 9361 0 0
+ciMethodData com/android/tools/r8/graph/DexCode$Try hashCode ()I 1 10620 orig 264 56 173 70 116 0 0 0 0 8 244 187 35 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/android/tools/r8/graph/DexCode$TryHandler hashCode ()I 1 9361 orig 264 56 173 70 116 0 0 0 0 88 133 251 35 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 2 0x80002 0x0 oops 0
+instanceKlass com/android/tools/r8/graph/LazyLoadedDexApplication$Builder$$Lambda$504
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$501
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$503
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$502
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$500
+instanceKlass com/android/tools/r8/ir/desugar/CovariantReturnTypeAnnotationTransformer
+instanceKlass com/android/tools/r8/ir/desugar/StringConcatRewriter
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$499
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$498
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter
+instanceKlass com/android/tools/r8/graph/GraphLense
+instanceKlass com/android/tools/r8/ir/conversion/OptimizationFeedbackSimple
+instanceKlass com/android/tools/r8/ir/conversion/OptimizationFeedbackIgnore
+instanceKlass com/android/tools/r8/ir/analysis/type/TypeEnvironment
+instanceKlass com/android/tools/r8/com/google/common/collect/ListMultimap
+instanceKlass com/android/tools/r8/ir/regalloc/RegisterAllocator
+instanceKlass com/android/tools/r8/ir/conversion/CallSiteInformation
+instanceKlass com/android/tools/r8/ir/conversion/OptimizationFeedback
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2IntMap$FastEntrySet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/AbstractInt2IntFunction
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$497
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$496
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$495
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$494
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$493
+instanceKlass com/android/tools/r8/utils/EncodedValueUtils
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$492
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$491
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$490
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$488
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$489
